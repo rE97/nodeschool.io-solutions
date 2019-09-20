@@ -1,1 +1,1 @@
-"# nodeschool.io Solutions" 
+# nodeschool.io Solutions
