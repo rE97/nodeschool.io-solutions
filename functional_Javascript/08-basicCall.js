@@ -7,13 +7,14 @@ function duckCount(...args) {
 	return quackCount;
 }
 
-// other solution
+// official solutions
 // function duckCount() {
 // 	return Array.prototype.slice.call(arguments).filter((obj) => {		// we use Array.prototype.slice.call(arguments, to convert arguemnts into an array)
 // 		return Object.prototype.hasOwnProperty.call(obj, 'quack')
 // 	}).length
 // }
 
+// other solutions
 // function duckCount() {
 // 	return [...arguments].filter((obj) => {								// basically, we are converting arguments into array using spread operator (ES6)
 // 		return Object.prototype.hasOwnProperty.call(obj, 'quack')
